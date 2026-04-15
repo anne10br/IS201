@@ -1,0 +1,45 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    font-family:var(--bs-body-font-family);
+}
+
+.navbar{
+    background-color: rgb(41, 61, 50);
+    overflow:hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.nav-links {
+  display: flex;
+}
+
+/* Individual links */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  background-color: #576d5b;
+}
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
